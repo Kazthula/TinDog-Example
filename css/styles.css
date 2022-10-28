@@ -1,0 +1,163 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+#title {
+  background-color: #ff4c68;
+  padding: 3% 15% 5%;
+}
+
+.brand-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.title-quote {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.btn-download {
+  margin-left: 5% 3% 5% 0;
+}
+
+.fab-icon {
+  margin-right: 8px;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+  position: absolute;
+}
+
+#features {
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.ftr-col {
+  padding: 5%;
+}
+
+.fa-icon {
+  color: #ef8172;
+  margine: 1rem;
+}
+
+.fa-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+/*testimonials*/
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 14%;
+}
+
+/*press section*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*pricing section*/
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.price-heading, .price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*cta section*/
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 14%;
+  text-align: center;
+}
+.cta-title{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+/*Footer section*/
+#footer{
+  padding: 7% 14%;
+  text-align: center;
+}
+.foot-icon{
+  padding: 20px 10px;
+}
+@media (max-width: 1024px){
+  .title-quote{
+    font-size: 3rem;
+  }
+  .title-image{
+    transform: rotate(0);
+  }
+  .btn-download{
+    margin-right: 6px;
+  }
+}
+@media (max-width: 768px){
+  .title-image{
+    position: relative;
+    left: 100px;
+    width: 60%;
+  }
+  .column-one{
+    text-align: center;
+  }
+}
